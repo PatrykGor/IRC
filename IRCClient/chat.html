@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="static/bootstrap.min.css" rel="stylesheet" />
+    <link href="static/jquery/emoticons-jquery/jquery.cssemoticons.css" rel="stylesheet" />
+    <link href="static/jquery/scrollbar-jquery/scrollbar.css" rel="stylesheet" />
+
+    <script src="static/jquery/jquery.js"></script>
+    <script src="static/jquery/emoticons-jquery/jquery.cssemoticons.min.js"></script>
+    <script src="static/jquery/scrollbar-jquery/scrollbar.js"></script>
+
+    <script type="module" src="modules/data.js"></script>
+    <script type="module" src="modules/messaging.js"></script>
+    <script type="module" src="modules/visualization.js"></script>
+
+    <script type="module" src="script.js" defer></script>
+
+    <style>
+        #message {
+            width: 970px;
+            display: block;
+            margin: 5px auto;
+        }
+    </style>
+
+    <title>Chat room</title>
+</head>
+
+<body>
+    <div id="chatlist" class="bg-secondary">
+        <div class="scrollbar">
+            <div class="track">
+                <div class="thumb">
+                    <div class="end"></div>
+                </div>
+            </div>
+        </div>
+        <div class="viewport">
+            <div class="overview">
+            </div>
+        </div>
+    </div>
+    <input type="text" name="message" id="message">
+</body>
+
+</html>

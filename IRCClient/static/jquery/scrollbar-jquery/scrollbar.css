@@ -1,0 +1,51 @@
+#chatlist {
+  width: 970px;
+  clear: both;
+  margin: 5px auto;
+}
+#chatlist .viewport {
+  width: 950px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+#chatlist .overview {
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow-wrap: break-word;
+  font-size: 25px;
+}
+#chatlist .thumb .end,
+#chatlist .thumb {
+  background-color: #b8a01e;
+}
+#chatlist .scrollbar {
+  position: relative;
+  float: right;
+  width: 15px;
+}
+#chatlist .track {
+  background-color: #233f52;
+  height: 100%;
+  width: 13px;
+  position: relative;
+  padding: 0 1px;
+}
+#chatlist .thumb {
+  height: 20px;
+  width: 13px;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+#chatlist .thumb .end {
+  overflow: hidden;
+  height: 5px;
+  width: 13px;
+}
+#chatlist .disable {
+  display: none;
+}
